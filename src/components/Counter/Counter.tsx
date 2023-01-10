@@ -1,11 +1,11 @@
-import { RootState } from '../store/store';
+import { RootState } from '../../store/store';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   increment,
   decrement,
   setCounter,
   incrementByAmount,
-} from '../store/slices/counterSlice';
+} from '../../store/slices/counterSlice';
 
 const Counter = () => {
   const counter: number = useSelector(
