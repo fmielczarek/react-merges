@@ -1,4 +1,4 @@
-import FetchedFacts from './components/FetchedJoke/FetchedFacts';
+import FetchedFacts from './components/FetchedJoke/FetchedJoke';
 
 const App = () => {
   return (
