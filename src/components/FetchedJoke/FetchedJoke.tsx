@@ -25,7 +25,9 @@ const FetchedJoke = () => {
 
   return (
     <div>
-      <h3>Here's your Chuck Norris joke, enjoy:</h3>
+      <p className='font-bold text-2xl'>
+        Here's your Chuck Norris joke, enjoy:
+      </p>
       <p>{data.value}</p>
     </div>
   );

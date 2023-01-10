@@ -1,13 +1,14 @@
-import FetchedFacts from './components/FetchedJoke/FetchedJoke';
-
 import Counter from './components/Counter/Counter';
+import FetchedFacts from './components/FetchedJoke/FetchedJoke';
+import ColoredBlocks from './components/ColoredBlocks/ColoredBlocks';
 
 const App = () => {
   return (
-    <div>
+    <div className='flex flex-col gap-y-4'>
       <p>Hello world!</p>
-      <FetchedFacts />
       <Counter />
+      <FetchedFacts />
+      <ColoredBlocks />
     </div>
   );
 };
